@@ -15,6 +15,86 @@ header {
     width: 100%;
     opacity: .9;
     margin-bottom: 10px;
+    position: relatives;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+headerder .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+} .menu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    transform: translateX(-50%);
+}
+
+header .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    background-color: inherit;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.menu li a {
+    color: #444;
+    text-decoration: none;
+    font-size: 12px; /* Adjust the size as needed */
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1.logo {
+    margin: 0;
+    font-size: 1.7em;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+h1.logo:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+h3 {
+    font-size: 1.7em;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #999;
 }
 
 header h1.logo {
